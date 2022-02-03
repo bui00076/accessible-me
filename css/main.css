@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: antiquewhite;
   margin: 0;
   padding: 0;
+  color: #404040;
+  font-family: "Opensans", sans-serif;
+  font-size: 20px;
 }
 
 h1,
@@ -11,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-size: 33px;
 }
 
 .container {
@@ -68,4 +72,20 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+/* My Css*/
+.skip-to-content-link {
+  color: #404040;
+  width:1px;
+  height: 1px;
+  top: auto;
+  color: #0000FF;
+  font-style: italic;
+}
+ul.horizontal {
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px;
+  margin-bottom: 10px;
 }
